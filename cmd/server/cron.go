@@ -6,8 +6,8 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/ditatompel/xmr-remote-nodes/internal/cron"
-	"github.com/ditatompel/xmr-remote-nodes/internal/database"
+	"github.com/tuskeNetwork/tsk-remote-nodes/internal/cron"
+	"github.com/tuskeNetwork/tsk-remote-nodes/internal/database"
 
 	"github.com/spf13/cobra"
 )

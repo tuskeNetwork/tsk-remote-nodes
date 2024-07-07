@@ -8,11 +8,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/ditatompel/xmr-remote-nodes/frontend"
-	"github.com/ditatompel/xmr-remote-nodes/internal/config"
-	"github.com/ditatompel/xmr-remote-nodes/internal/cron"
-	"github.com/ditatompel/xmr-remote-nodes/internal/database"
-	"github.com/ditatompel/xmr-remote-nodes/internal/handler"
+	"github.com/tuskeNetwork/tsk-remote-nodes/frontend"
+	"github.com/tuskeNetwork/tsk-remote-nodes/internal/config"
+	"github.com/tuskeNetwork/tsk-remote-nodes/internal/cron"
+	"github.com/tuskeNetwork/tsk-remote-nodes/internal/database"
+	"github.com/tuskeNetwork/tsk-remote-nodes/internal/handler"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"

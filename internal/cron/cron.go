@@ -6,7 +6,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/ditatompel/xmr-remote-nodes/internal/database"
+	"github.com/tuskeNetwork/tsk-remote-nodes/internal/database"
 )
 
 type cronRepo struct {

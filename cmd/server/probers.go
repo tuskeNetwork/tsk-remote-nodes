@@ -10,8 +10,8 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/ditatompel/xmr-remote-nodes/internal/database"
-	"github.com/ditatompel/xmr-remote-nodes/internal/monero"
+	"github.com/tuskeNetwork/tsk-remote-nodes/internal/database"
+	"github.com/tuskeNetwork/tsk-remote-nodes/internal/monero"
 
 	"github.com/spf13/cobra"
 )

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/ditatompel/xmr-remote-nodes/cmd"
+	"github.com/tuskeNetwork/tsk-remote-nodes/cmd"
 )
 
 func main() {

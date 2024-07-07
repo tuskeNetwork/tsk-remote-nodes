@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ditatompel/xmr-remote-nodes/internal/geo"
+	"github.com/tuskeNetwork/tsk-remote-nodes/internal/geo"
 )
 
 type QueryLogs struct {

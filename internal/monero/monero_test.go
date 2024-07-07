@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/ditatompel/xmr-remote-nodes/internal/config"
-	"github.com/ditatompel/xmr-remote-nodes/internal/database"
+	"github.com/tuskeNetwork/tsk-remote-nodes/internal/config"
+	"github.com/tuskeNetwork/tsk-remote-nodes/internal/database"
 )
 
 var testMySQL = true

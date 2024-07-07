@@ -5,14 +5,14 @@
   tasks:
     - name: Stop prober systemd timer
       systemd:
-        name: xmr-nodes-prober.timer
+        name: tsk-nodes-prober.timer
         state: stopped
       when: inventory_hostname in groups['prober']
 
     - name: Upload binary file (AMD64)
       copy:
-        src: ../../bin/xmr-nodes-client-linux-amd64
-        dest: /path/to/remote/xmr-nodes/bin/xmr-nodes-client
+        src: ../../bin/tsk-nodes-client-linux-amd64
+        dest: /path/to/remote/tsk-nodes/bin/tsk-nodes-client
         owner: your_user
         group: your_group
         mode: 0755
@@ -20,8 +20,8 @@
 
     - name: Upload binary file (ARM64)
       copy:
-        src: ../../bin/xmr-nodes-client-linux-arm64
-        dest: /path/to/remote/xmr-nodes/bin/xmr-nodes-client
+        src: ../../bin/tsk-nodes-client-linux-arm64
+        dest: /path/to/remote/tsk-nodes/bin/tsk-nodes-client
         owner: your_user
         group: your_group
         mode: 0755
@@ -30,6 +30,6 @@
 
     - name: Start systemd timer
       systemd:
-        name: xmr-nodes-prober.timer
+        name: tsk-nodes-prober.timer
         state: started
       when: inventory_hostname in groups['prober']

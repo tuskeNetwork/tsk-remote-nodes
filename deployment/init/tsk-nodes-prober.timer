@@ -1,5 +1,5 @@
 [Unit]
-Description=Schedule fetch monero node info every 30 seconds
+Description=Schedule fetch tuske node info every 30 seconds
 
 [Timer]
 Persistent=true
@@ -8,7 +8,7 @@ OnBootSec=120
 #Run every 30 seconds thereafter
 OnCalendar=*-*-* *:*:00,30
 #File describing job to execute
-Unit=xmr-nodes-prober.service
+Unit=tsk-nodes-prober.service
 
 [Install]
 WantedBy=timers.target

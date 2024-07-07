@@ -5,7 +5,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/ditatompel/xmr-remote-nodes/internal/database"
+	"github.com/tuskeNetwork/tsk-remote-nodes/internal/database"
 
 	"github.com/google/uuid"
 )

@@ -5,14 +5,14 @@
   tasks:
     - name: Stop server systemd daemon
       systemd:
-        name: xmr-nodes-server.service
+        name: tsk-nodes-server.service
         state: stopped
       when: inventory_hostname in groups['server']
 
     - name: Upload binary file (AMD64)
       copy:
-        src: ../../bin/xmr-nodes-server-linux-amd64
-        dest: /path/to/remote/server/bin/xmr-nodes-server
+        src: ../../bin/tsk-nodes-server-linux-amd64
+        dest: /path/to/remote/server/bin/tsk-nodes-server
         Owner: your_user
         Group: your_group
         mode: 0755
@@ -20,8 +20,8 @@
 
     - name: Upload binary file (ARM64)
       copy:
-        src: ../../bin/xmr-nodes-server-linux-arm64
-        dest: /path/to/remote/server/bin/xmr-nodes-server
+        src: ../../bin/tsk-nodes-server-linux-arm64
+        dest: /path/to/remote/server/bin/tsk-nodes-server
         Owner: your_user
         Group: your_group
         mode: 0755
@@ -29,6 +29,6 @@
 
     - name: Start systemd daemon
       systemd:
-        name: xmr-nodes-server.service
+        name: tsk-nodes-server.service
         state: started
       when: inventory_hostname in groups['server']

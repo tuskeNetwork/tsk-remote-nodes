@@ -1,4 +1,4 @@
-module github.com/ditatompel/xmr-remote-nodes
+module github.com/tuskeNetwork/tsk-remote-nodes
 
 go 1.22.2
 

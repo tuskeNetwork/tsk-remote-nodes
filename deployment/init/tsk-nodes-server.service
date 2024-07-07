@@ -1,5 +1,5 @@
 [Unit]
-Description=xmr-node server service
+Description=tsk-node server service
 After=network.target mariadb.service
 
 [Install]
@@ -10,7 +10,7 @@ Type=simple
 User=your_user
 Restart=always
 WorkingDirectory=/path/to/project/dir
-ExecStart=/path/to/project/dir/bin/xmr-nodes-server serve
-SyslogIdentifier=xmr-node-server
+ExecStart=/path/to/project/dir/bin/tsk-nodes-server serve
+SyslogIdentifier=tsk-node-server
 
 # vim: filetype=systemd
