@@ -1,11 +1,11 @@
 {
-	"name": "xmr.ditatompel.com",
-	"short_name": "xmr-remote-nodes",
+	"name": "nodes.tuske.network",
+	"short_name": "tsk-remote-nodes",
 	"start_url": "/",
 	"display": "standalone",
 	"background_color": "#272b31",
 	"theme_color": "#272b31",
-	"description": "Monero Remote Nodes",
+	"description": "Tuske Remote Nodes",
 	"icons": [
 		{
 			"src": "/img/icon/android-icon-36x36.png",

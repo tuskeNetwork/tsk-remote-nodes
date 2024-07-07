@@ -12,8 +12,8 @@ import (
 var configFile string
 
 var Root = &cobra.Command{
-	Use:     "xmr-nodes",
-	Short:   "XMR Nodes",
+	Use:     "tsk-nodes",
+	Short:   "TSK Nodes",
 	Version: config.Version,
 }
 

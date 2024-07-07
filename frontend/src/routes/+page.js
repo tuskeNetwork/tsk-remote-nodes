@@ -2,11 +2,11 @@
 export async function load() {
 	return {
 		meta: {
-			title: 'Monero Remote Node',
+			title: 'Tuske Remote Node',
 			description:
 				'A website that helps you monitor your favourite Monero remote nodes, a device on the internet running the Monero software with copy of the Monero blockchain.',
 			keywords:
-				'monero,monero,xmr,monero node,xmrnode,cryptocurrency,monero remote node,monero testnet,monero stagenet'
+				'monero,monero,tsk,monero node,xmrnode,cryptocurrency,monero remote node,monero testnet,monero stagenet'
 		},
 		links: [
 			{ text: 'moneroworld.com', uri: 'https://moneroworld.com' },

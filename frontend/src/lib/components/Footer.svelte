@@ -7,7 +7,7 @@
 		<div class="bg-surface-500/5">
 			<div class="container mx-auto px-5 py-4">
 				<!-- prettier-ignore -->
-				<p class="text-center text-sm">XMR Nodes {version}, <a href="https://github.com/ditatompel/xmr-remote-nodes" target="_blank" rel="noopener" class="external">source code</a> licensed under <strong>GLWTPL</strong>.</p>
+				<p class="text-center text-sm">TSK Nodes {version}, <a href="https://github.com/tuskeNetwork/tsk-remote-nodes" target="_blank" rel="noopener" class="external">source code</a> licensed under <strong>GLWTPL</strong>.</p>
 			</div>
 		</div>
 	</footer>

@@ -59,7 +59,7 @@ func serve() {
 	app := fiber.New(fiber.Config{
 		Prefork:     appCfg.Prefork,
 		ProxyHeader: appCfg.ProxyHeader,
-		AppName:     "XMR Nodes Aggregator",
+		AppName:     "TSK Nodes Aggregator",
 	})
 
 	// recover

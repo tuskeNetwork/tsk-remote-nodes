@@ -48,7 +48,7 @@
 				</button>
 				<a href="/app/prober/" class="ms-2 flex md:me-24" aria-label="title">
 					<span class="hidden self-center whitespace-nowrap text-2xl font-semibold lg:block"
-						>XMR Nodes</span
+						>TSK Nodes</span
 					>
 				</a>
 			</div>

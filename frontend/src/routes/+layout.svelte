@@ -25,9 +25,9 @@
 
 	/* prettier-ignore */
 	const meta = {
-		title: 'Monero Remote Node',
-		description: 'A website that helps you monitor your favourite Monero remote nodes, a device on the internet running the Monero software with copy of the Monero blockchain.',
-		keywords: 'monero,monero,xmr,monero node,xmrnode,cryptocurrency,monero remote node,monero testnet,monero stagenet'
+		title: 'Tuske Remote Node',
+		description: 'A website that helps you monitor your favourite Tuske remote nodes, a device on the internet running the Tuske software with copy of the Tuske blockchain.',
+		keywords: 'monero,monero,tsk,monero node,tsknode,cryptocurrency,tuske remote node,tuske testnet,tuske stagenet'
 	};
 
 	page.subscribe((page) => {
@@ -40,20 +40,20 @@
 </script>
 
 <svelte:head>
-	<title>{meta.title} — xmr.ditatompel.com</title>
+	<title>{meta.title} — nodes.tuske.network</title>
 	<!-- Meta Tags -->
-	<meta name="title" content="{meta.title} — xmr.ditatompel.com" />
+	<meta name="title" content="{meta.title} — nodes.tuske.network" />
 	<meta name="description" content={meta.description} />
 	<meta name="keywords" content={meta.keywords} />
 	<meta name="theme-color" content="#272b31" />
 	<meta name="author" content="ditatompel" />
 
 	<!-- Open Graph - https://ogp.me/ -->
-	<meta property="og:site_name" content="xmr.ditatompel.com" />
+	<meta property="og:site_name" content="nodes.tuske.network" />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://xmr.ditatompel.com{$page.url.pathname}" />
+	<meta property="og:url" content="https://nodes.tuske.network{$page.url.pathname}" />
 	<meta property="og:locale" content="en_US" />
-	<meta property="og:title" content="{meta.title} — xmr.ditatompel.com" />
+	<meta property="og:title" content="{meta.title} — nodes.tuske.network" />
 	<meta property="og:description" content={meta.description} />
 </svelte:head>
 

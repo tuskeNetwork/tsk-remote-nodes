@@ -20,7 +20,7 @@ import (
 	"golang.org/x/net/proxy"
 )
 
-const RPCUserAgent = "ditatombot/0.0.1 (Monero RPC Monitoring; https://github.com/ditatompel/xmr-remote-nodes)"
+const RPCUserAgent = "ditatombot/0.0.1 (Monero RPC Monitoring; https://github.com/tuskenetwork/tsk-remote-nodes)"
 
 const (
 	errNoEndpoint         = errProber("no SERVER_ENDPOINT was provided")
@@ -182,7 +182,7 @@ func (p *proberClient) fetchNode(node monero.Node) (monero.Node, error) {
 	}
 	req.Header.Set("Content-Type", "application/json; charset=UTF-8")
 	req.Header.Set("User-Agent", RPCUserAgent)
-	req.Header.Set("Origin", "https://xmr.ditatompel.com")
+	req.Header.Set("Origin", "https://nodes.tuske.network")
 
 	var client http.Client
 	if p.acceptTor && node.IsTor {
@@ -251,7 +251,7 @@ func (p *proberClient) fetchNode(node monero.Node) (monero.Node, error) {
 	node.Height = reportNode.Height
 	node.Version = reportNode.Version
 
-	if resp.Header.Get("Access-Control-Allow-Origin") == "*" || resp.Header.Get("Access-Control-Allow-Origin") == "https://xmr.ditatompel.com" {
+	if resp.Header.Get("Access-Control-Allow-Origin") == "*" || resp.Header.Get("Access-Control-Allow-Origin") == "https://nodes.tuske.network" {
 		node.CORSCapable = true
 	}
 

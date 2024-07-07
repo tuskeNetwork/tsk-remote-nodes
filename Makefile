@@ -1,4 +1,4 @@
-BINARY_NAME = xmr-nodes
+BINARY_NAME = tsk-nodes
 
 # These build are modified version of rclone's Makefile
 # https://github.com/rclone/rclone/blob/master/Makefile

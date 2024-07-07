@@ -41,7 +41,7 @@ Use [search] args to filter results by name or api key.
 "sort-by" flag can be "id" or "last_submit_ts"
 "sort-dir" flag can be "asc" or "desc"`,
 	Example: `# To sort probers by last submit time in ascending order that contains "sin1":
-xmr-nodes probers list -s last_submit_ts -d asc sin1`,
+tsk-nodes probers list -s last_submit_ts -d asc sin1`,
 	Run: func(cmd *cobra.Command, args []string) {
 		if err := database.ConnectDB(); err != nil {
 			panic(err)
